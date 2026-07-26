@@ -8,6 +8,7 @@ node {
       // **       in the global configuration.           
       mvnHome = tool 'M3'
    }
+   # Test file 
    stage('Build') {
       // Run the maven build
       if (isUnix()) {
